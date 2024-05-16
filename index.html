@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallel Website</title>
+</head>
+<body>
+    <header class="navigation-header" id="navbar">
+        <nav>
+            <div class="logo-container">
+                <a href="./index.html">HALLEL</a>
+            </div>
+            <div class="navigation-items" id="navigation-items">
+                <a href="">About</a>
+                <a href="">Adventures</a>
+                <a href="">The Team</a>
+                <a href="./contact.html">Contact Us</a>
+            </div>
+
+            <div class="hamburger">
+                <span id="openHam">&#9776;</span>
+                <span id="closeHam">&#x2716;</span>
+            </div>
+            
+        </nav>
+       </header>
+
+       <main>
+            <div class="hero-section" id="hero-section">
+                <div class="hero-section-text">
+                <h1>HALLEL</h1>
+                <h5 >A portion of the service for certain Jewish festivals, 
+                    <br>
+                    consisting of Psalms 113 118. "the Hallel psalms".
+                </h5>
+                
+                <button class="main-button">Read more!</button>
+                </div>
+            </div>
+
+            <div class="intro-container" style="height: 40vh;">
+              <div class="intro-column">
+                <h2 class="fade-in">Breathe.</h2>
+              </div>
+        
+              <div class="intro-column">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto quibusdam officia possimus unde fugiat nulla id nobis! Recusandae minima, vitae quaerat cumque deserunt voluptates cupiditate suscipit est ab sapiente ullam sed veritatis quasi veniam eos alias in asperiores quam odit?</p>
+              </div>
+            </div>
+
+            <div class="tabs-container" >
+                <div class="new-container">
+                    <input type="radio" name="new-radio" class="new-radioInput" id="new-one" checked hidden />
+                    <input type="radio" name="new-radio" class="new-radioInput" id="new-two" hidden />
+                    <input type="radio" name="new-radio" class="new-radioInput" id="new-three" hidden />
+                    <div class="new-tabHeader-container">
+                        <label for="new-one" class="new-tabHeader">What</label>
+                        <label for="new-two" class="new-tabHeader">Why</label>
+                        <label for="new-three" class="new-tabHeader">When</label>
+                    </div>
+                    <span class="new-activeTab-indicator"></span>
+                    <div class="new-tabContent-container">
+                        <div class="new-tabContent new-one-content">
+                            <h1>What</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente porro maxime a nihil amet asperiores, nostrum pariatur, sequi officia minima dolorum quod tenetur corporis ullam mollitia saepe cum rem inventore possimus dolores, corrupti commodi consectetur enim. Minus, id architecto excepturi, similique blanditiis autem officia pariatur nulla totam ex perspiciatis praesentium.</p>
+                        </div>
+                        <div class="new-tabContent new-two-content">
+                            <h1>Why</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolor reprehenderit id dicta modiaspernatur possimus optio. Quibusdam similique, ullam consequuntur magniiusto veniam iste obcaecatieum autem, accusantium dicta.</p>
+                        </div>
+                        <div class="new-tabContent new-three-content">
+                            <h1>When</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolor reprehenderit id dicta modiaspernatur possimus optio. Quibusdam similique, ullam consequuntur magniiusto veniam iste obcaecatieum autem, accusantium dicta.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-slider-container">
+              <div class="image-slider">
+                <img id="img-1" src="./src/pexels-eberhardgross-592287.jpg" alt="Image 1" />
+                <img id="img-2" src="./src/pexels-eberhardgross-707344.jpg" alt="Image 2" />
+                <img id="img-3" src="./src/pexels-lauren-forson-1230401-2801710.jpg" alt="Image 3" />
+              </div>
+              <div class="image-navigation-button">
+                <span class="dot active-dot" onclick="changeSlide(0)"></span>
+                <span class="dot" onclick="changeSlide(1)"></span>
+                <span class="dot" onclick="changeSlide(2)"></span>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev-button" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next-button" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="adventures" id="adventures">
+              <h2>Adventures!</h2>
+              <p>Where we've been & where we're going.</p>
+            </div>
+            
+
+            <div class="container">
+                <div class="custom-card">
+                  <div class="img-box"><img src="https://images.unsplash.com/photo-1682685797507-d44d838b0ac7?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+                  <div class="custom-content">
+                    <h2>Pretoria North</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, hic? Magnam eum error saepe doloribus corrupti repellat quisquam alias doloremque!</p>
+                    <a href="">Read More</a>
+                  </div>
+                </div>
+                <div class="custom-card">
+                  <div class="img-box"><img src="https://images.unsplash.com/photo-1682686578023-dc680e7a3aeb?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+                  <div class="custom-content">
+                    <h2>Free State</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, hic? Magnam eum error saepe doloribus corrupti repellat quisquam alias doloremque!</p>
+                    <a href="">Read More</a>
+                  </div>
+                </div>
+                <div class="custom-card">
+                  <div class="img-box"><img src="https://images.unsplash.com/photo-1682686580224-cd46ea1a6950?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+                  <div class="custom-content">
+                    <h2>Lesotho</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, hic? Magnam eum error saepe doloribus corrupti repellat quisquam alias doloremque!</p>
+                    <a href="">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="intro-container" style="height: 40vh;">
+                <div class="intro-column">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto quibusdam officia possimus unde fugiat nulla id nobis! Recusandae minima, vitae quaerat cumque deserunt voluptates cupiditate suscipit est ab sapiente ullam sed veritatis quasi veniam eos alias in asperiores quam odit?</p>
+                  <img src="" alt="">
+                </div>
+                
+                <div class="intro-column">
+                  <h2 style="font-size: 6em;">Brent & Phela.</h2>
+                </div>
+              </div> -->
+
+              <div class="hero-section" id="hero-section">
+                <div class="hero-section-text">
+                  <h2>Owners.</h2>
+                </div>
+            </div>
+          
+          
+          
+       </main>
+
+        <div class="footer-container">
+
+            <footer class="footer">
+                <div class="footer__addr">
+                  <!-- <h1 class="footer__logo">Hallel</h1> -->
+
+                <div class="footer__logo">
+                    <a href="./index.html">HALLEL</a>
+                </div>
+                      
+                  <h2>Contact</h2>
+                  
+                  <address>
+                    5534 Somewhere In. The World 22193-10212<br>
+                        
+                    <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+                  </address>
+                </div>
+                
+                <ul class="footer__nav">
+                  <li class="nav__item">
+                    <h2 class="nav__title">Media</h2>
+              
+                    <ul class="nav__ul">
+                      <li>
+                        <a href="#">Online</a>
+                      </li>
+              
+                      <li>
+                        <a href="#">Print</a>
+                      </li>
+                          
+                      <li>
+                        <a href="#">Alternative Ads</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav__item nav__item--extra">
+                    <h2 class="nav__title">Technology</h2>
+                    
+                    <ul class="nav__ul nav__ul--extra">
+                      <li>
+                        <a href="#">Hardware Design</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">Software Design</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">Digital Signage</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">Automation</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">Artificial Intelligence</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">IoT</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <h2 class="nav__title">Legal</h2>
+                    
+                    <ul class="nav__ul">
+                      <li>
+                        <a href="#">Privacy Policy</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">Terms of Use</a>
+                      </li>
+                      
+                      <li>
+                        <a href="#">Sitemap</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                <div class="legal">
+                  <p>&copy; 2023 Something. All rights reserved.</p>
+                  
+                  <div class="legal__links">
+                    <span>Made with by <a href="http://">Matho-Tech</a></span>
+                  </div>
+                </div>
+            </footer>
+
+       </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
